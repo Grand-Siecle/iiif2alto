@@ -77,7 +77,7 @@ N'oubliez pas d'ajouter les tags en fonction de l'avancer des travaux.
 
 Pour importer les images, il faut faire attention à la quantité afin de ne pas surcharger les serveurs. Au delà de 100 photos, il est conseiller d'importer par lot de 100 images afin d'éviter les incidents. Vous devez au préalable décompresser le fichier zip contenant les images.
 
-Pour importer les fichiers XML-ALTO une fois les images importées, vous devez cliquer sur *Import* puis *Transcription (XML)* et tout simplement déposer le fichier zip.
+Pour déposer les fichiers XML-ALTO une fois les images importées, vous devez cliquer sur *Import* puis *Transcription (XML)* et tout simplement déposer le fichier zip.
 
 <img src="media/import_xml.jpg" alt="Create document" width="400"/>
 
