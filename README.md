@@ -35,12 +35,29 @@ Pour débuter une session, il faut se connecter via SWITCH puis sélectionner l'
 
 Il faut bien estimer le nombre d'heure d'utilisation pour ne pas surcharger le serveur, donc prendre la place aux autres. Cliquer sur *Launch* pour lancer la session.
 
-Ensuite, il faut cliquer sur *Connect to Jupyter* pour accéder à la session. Vous pouvez déposer le fichier .ipynb (Notebook) en amont dans l'onglet *Files* -> **Upload* ou directement dans l'espace JupyterLab sur le bouton upload (en dessous de Run)
+Ensuite, il faut cliquer sur *Connect to Jupyter* pour accéder à la session. Le bouton peut prendre un peu de temps à s'afficher, cela dépend de la disponibilité du cluster. Vous pouvez déposer le fichier .ipynb (Notebook) en amont dans l'onglet *Files* -> **Upload* ou directement dans l'espace JupyterLab sur le bouton upload (en dessous de Run)
 
 <img src="media/upload_notebook.png" alt="Upload in Jupyter" width="400"/>
 
+Enfin il faut accéder à votre notebook en cliquant dessus. Le chargement peut prendre quelques secondes. Il faut impérativement renseigner les deux champs (au sein des parenthèses!) pour lancer le script :
+- id_book : correspond à l'identifiant dans la base de données Livre
+- iiif_manifest: lien du manifeste IIIF
+
+Ensuite, il faut tout simplement aller dans *Run* -> *Run All Cells* et le script va se lancer. 
+
+* N'oubliez pas de télécharger les fichiers zip quand le script est terminé : clique droit sur le fichier et Download *
+
+<img src="media/download_zip.jpg" alt="Upload in Jupyter" width="400"/>
+
+Si vous avez fini votre travail et qu'il reste du temps à votre session, n'hésitez pas à l'éteindre en cliquant sur le bouton Delete dans *My Interactive Sessions*. 
+
+### eScriptorium
+
+Voici quelques ressources concernant l'utilisation d'eScriptorium, application web pour la transcription HTR :
+- Tutoriel eScriptorium général : [lien](https://lectaurep.hypotheses.org/documentation/prendre-en-main-escriptorium)
+- Tutoriel eScriptorium complet : [lien](https://escriptorium.readthedocs.io/en/latest/)
+- Code source : [lien](https://gitlab.com/scripta/escriptorium)
 
 
-
-
-
+Dans notre cas, nous allons utiliser l'instance mis en place par l'Université de Genève *FoNDUE*.
+- FoNDUE : [lien](https://test.fondue.unige.ch/)
