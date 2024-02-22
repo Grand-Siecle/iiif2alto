@@ -11,7 +11,7 @@ XML-ALTO est l'encodage XML reconnu pour l'HTR. Il peut être importé sur eScri
 - Pour convertir des images depuis un manifeste IIIF : [Notebook](https://gitlab.unige.ch/grand_siecle/iiif2alto/-/blob/main/notebook_pipeline.ipynb)
 - Pour convertir des images depuis un PDF : [Notebook]()
 
-## Utilisation 
+## Utilisation de JupyterLab
 
 ### OpenOnDemand
 
@@ -45,9 +45,9 @@ Enfin il faut accéder à votre notebook en cliquant dessus. Le chargement peut 
 
 Ensuite, il faut tout simplement aller dans *Run* -> *Run All Cells* et le script va se lancer. 
 
-* N'oubliez pas de télécharger les fichiers zip quand le script est terminé : clique droit sur le fichier et Download *
+* N'oubliez pas de télécharger les fichiers zip (2) quand le script est terminé : clique droit sur le fichier et Download *
 
-<img src="media/download_zip.jpg" alt="Upload in Jupyter" width="400"/>
+<img src="media/download_zip.jpg" alt="Download files" width="400"/>
 
 Si vous avez fini votre travail et qu'il reste du temps à votre session, n'hésitez pas à l'éteindre en cliquant sur le bouton Delete dans *My Interactive Sessions*. 
 
@@ -61,3 +61,28 @@ Voici quelques ressources concernant l'utilisation d'eScriptorium, application w
 
 Dans notre cas, nous allons utiliser l'instance mis en place par l'Université de Genève *FoNDUE*.
 - FoNDUE : [lien](https://test.fondue.unige.ch/)
+
+#### Ajouter un document
+
+Pour ajouter un nouveau document, il faut cliquer sur le bouton créer et completer le formulaire:
+- Name : IDLivre_NomCourt
+- script : Latin
+- Read Direction : Left to right
+- Line position : Baseline
+- Metadata : bdd_liv et bdd_pers
+
+N'oubliez pas d'ajouter les tags en fonction de l'avancer des travaux. 
+
+<img src="media/create_document.jpg" alt="Create document" width="400"/>
+
+Pour importer les images, il faut faire attention à la quantité afin de ne pas surcharger les serveurs. Au delà de 100 photos, il est conseiller d'importer par lot de 100 images afin d'éviter les incidents. Vous devez au préalable décompresser le fichier zip contenant les images.
+
+Pour importer les fichiers XML-ALTO une fois les images importées, vous devez cliquer sur *Import* puis *Transcription (XML)* et tout simplement déposer le fichier zip.
+
+<img src="media/import_xml.jpg" alt="Create document" width="400"/>
+
+#### Restrancrire
+
+**N.B.**: Cette option est intéressante si vous n'avez pas corriger le texte, mais uniquement la segmentation. Sinon votre travail sera perdu ... Il vaut mieux corriger après la retranscription.
+
+Si vous souhaitez corriger la segmentation des lignes et des masks pour améliorer la transcription, vous devez sélectionner les images puis cliquer sur *Transcribe*. Sélectionner le modèle Emmental ou Gallicorpora+ pour les imprimés.
