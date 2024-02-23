@@ -45,7 +45,10 @@ Enfin il faut accéder à votre notebook en cliquant dessus. Le chargement peut 
 
 Ensuite, il faut tout simplement aller dans *Run* -> *Run All Cells* et le script va se lancer. 
 
-* N'oubliez pas de télécharger les fichiers zip (2) quand le script est terminé : clique droit sur le fichier et Download *
+
+**🚨🚨Vous ne devez pas fermer les pages JupyterLab dans votre navigateur durant le processus, sinon le script s'arrète !!!🚨🚨**
+
+**⚠N'oubliez pas de télécharger les fichiers zip (2 fichiers) quand le script est terminé : clique droit sur le fichier et Download**
 
 <img src="media/download_zip.jpg" alt="Download files" width="400"/>
 
