@@ -45,10 +45,9 @@ Enfin il faut accéder à votre notebook en cliquant dessus. Le chargement peut 
 
 Ensuite, il faut tout simplement aller dans *Run* -> *Run All Cells* et le script va se lancer. 
 
-
 **🚨🚨Vous ne devez pas fermer les pages JupyterLab dans votre navigateur durant le processus, sinon le script s'arrète !!!🚨🚨**
 
-**⚠N'oubliez pas de télécharger les fichiers zip (2 fichiers) quand le script est terminé : clique droit sur le fichier et Download**
+> **⚠N'oubliez pas de télécharger les fichiers zip (2 fichiers) quand le script est terminé : clique droit sur le fichier et Download**
 
 <img src="media/download_zip.jpg" alt="Download files" width="400"/>
 
@@ -74,7 +73,7 @@ Pour ajouter un nouveau document, il faut cliquer sur le bouton créer et comple
 - Line position : Baseline
 - Metadata : bdd_liv et bdd_pers
 
-N'oubliez pas d'ajouter les tags en fonction de l'avancer des travaux. 
+> ⚠N'oubliez pas d'ajouter les tags en fonction de l'avancer des travaux. 
 
 <img src="media/create_document.jpg" alt="Create document" width="400"/>
 
