@@ -29,8 +29,8 @@ Pour débuter une session, il faut se connecter via SWITCH puis sélectionner l'
  - Version : GCCcore/12.3.0 JupyterLab/4.0.5
     - Partition : shared-gpu
     - Nombre d'heure : dépend du nombre de fichiers à transcrire
-    - CPU : dans l'idéal 6 coeurs
-    - Memory : 8 Gb 
+    - CPU : dans l'idéal 2 coeurs
+    - Memory : 4 Gb 
     - GPU: 1
 
 Il faut bien estimer le nombre d'heure d'utilisation pour ne pas surcharger le serveur, donc prendre la place aux autres. Cliquer sur *Launch* pour lancer la session.
