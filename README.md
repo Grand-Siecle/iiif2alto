@@ -28,7 +28,7 @@ Le site est accessible via cette adresse : [OpenOnDemand](https://ondemand.baoba
 Pour débuter une session, il faut se connecter via SWITCH puis sélectionner l'application *Jupyter Lab*. Il faut ensuite décrire sa configuration Hardware
  - Version : GCCcore/12.3.0 JupyterLab/4.0.5
     - Partition : shared-gpu
-    - Nombre d'heure : dépend du nombre de fichiers à transcrire
+    - Nombre d'heure : dépend du nombre de fichiers à transcrire. Pour un imprimé de 650 pages, il faut compter 5 heures.
     - CPU : dans l'idéal 2 coeurs
     - Memory : 4 Gb 
     - GPU: 1
