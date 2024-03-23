@@ -9,7 +9,7 @@ Deux notebooks ont été produits afin de convertir des images sous le format AL
 XML-ALTO est l'encodage XML reconnu pour l'HTR. Il peut être importé sur eScriptorium ou diffuser auprès de la communauté. 
 
 - Pour convertir des images depuis un manifeste IIIF : [Notebook](https://gitlab.unige.ch/grand_siecle/iiif2alto/-/blob/main/notebook_pipeline.ipynb)
-- Pour convertir des images depuis un PDF : [Notebook]()
+- Pour convertir des images depuis un PDF : [Notebook](https://gitlab.unige.ch/grand_siecle/iiif2alto/-/blob/main/notebook_pdf.ipynb)
 
 ## Utilisation de JupyterLab
 
