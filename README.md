@@ -19,6 +19,8 @@ OpenOnDemand est un service fournit par le service HPC de l'Université de Genè
 
 Le site est accessible via cette adresse : [OpenOnDemand](https://ondemand.baobab.hpc.unige.ch/). Il faut en demander l'accès au préalable via le forum : [https://hpc-community.unige.ch/t/baobab-openondemand-is-now-available/3172](https://hpc-community.unige.ch/t/baobab-openondemand-is-now-available/3172). 
 
+Pour demander un accès HPC : [lien](https://dw.unige.ch/openentry.html?tid=hpc)
+
 ### Utilisation
 
 - **Lancer son instance *Jupyter Lab***
