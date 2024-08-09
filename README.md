@@ -90,3 +90,8 @@ Pour déposer les fichiers XML-ALTO une fois les images importées, vous devez c
 **N.B.**: Cette option est intéressante si vous n'avez pas corriger le texte, mais uniquement la segmentation. Sinon votre travail sera perdu ... Il vaut mieux corriger après la retranscription.
 
 Si vous souhaitez corriger la segmentation des lignes et des masks pour améliorer la transcription, vous devez sélectionner les images puis cliquer sur *Transcribe*. Sélectionner le modèle Emmental ou Gallicorpora+ pour les imprimés.
+
+## Troubleshooting
+
+>[!WARNING] 
+> Cas cluster HPC Notebook (ex: libpython3.10.so.1.0:) : supprimer directement le dossier  `$HOME/.local/` si utilisation limitée
